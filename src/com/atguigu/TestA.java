@@ -21,6 +21,16 @@ public class TestA {
 			System.err.println(x);
 		};
 		a.accept("飞雪连天射白鹿，笑书神侠倚碧鸳");
+	}	
+	
+	@Test
+	public void test03() throws Exception {
+		Consumer<String> a = x -> {
+			System.err.println(x);
+		};
+		a.accept("飞雪连天射白鹿，笑书神侠倚碧鸳");
 	}
+	
+	
 	
 }
