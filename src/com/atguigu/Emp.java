@@ -8,6 +8,10 @@ public class Emp {
 	private Double salary;
 	private Status status;
 	
+	private Status status1;
+	private Status status2;
+	private Status status3;
+	
 	public enum Status{
 		FREE,
 		BUSY,
